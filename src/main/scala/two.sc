@@ -11,3 +11,5 @@ val testOne = numbers.length
 
 //list elements start from index 0 like arrays and arrayBuffers
 numbers.lift(testOne  - 2)
+
+//use function

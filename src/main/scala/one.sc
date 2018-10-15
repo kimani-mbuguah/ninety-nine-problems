@@ -70,3 +70,11 @@ myTestList.lastOption
 myTestList.reverse.lastOption
 
 val opResult = myTestList.reverse.head
+
+//define a function that does everything
+
+def last[A](l:List[A]):A = {
+  l.last
+}
+
+last(List(1,2,3,4,5,6))

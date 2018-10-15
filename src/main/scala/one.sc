@@ -38,3 +38,22 @@ val newList3 = originalList.filter(_ == 6)
 var myLastList = List[String]("kim","mbuguah","at")
 var myFinalList = List[Int](1,2,3,4,5,6,7,8,9)
 myFinalList = myFinalList.filter(_ > 5)
+
+/*
+* (*) Find the last element of a list
+it("should find last element") {
+  val last = P01.last(List("a", "b", "c", "d"))
+  last should be("d")
+}
+* */
+val last = List[String]("a","b","c","d","e")
+//1.use last which returns the last element or throws a NoSuchElementException if the list is empty
+last.last
+//test error // throws java.util.NoSuchElementException error
+//List[Int]().last
+//2. if you do not know whether the list is empty use lastOption which returns an option
+last.lastOption
+
+//another way out
+val a  = List(1,2,3,4,5)
+val lastElement = a.reverse.head

@@ -57,3 +57,16 @@ last.lastOption
 //another way out
 val a  = List(1,2,3,4,5)
 val lastElement = a.reverse.head
+
+//test whether i've grabbed all the concepts
+val myTestList = List[String]("kim","africas","talking","galana","kilimani")
+myTestList.last
+
+//gets the first element
+myTestList.reverse.last
+
+myTestList.lastOption
+//get first element using lastOption and reverse
+myTestList.reverse.lastOption
+
+val opResult = myTestList.reverse.head

@@ -22,3 +22,6 @@ def max(x:Int, y: Int) :Int = {
 
 max(22,3)
 max(6,9)
+
+def greet() = println("Hello World")
+greet()

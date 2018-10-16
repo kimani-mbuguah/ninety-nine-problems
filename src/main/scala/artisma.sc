@@ -72,3 +72,7 @@ val myList:List[Int] = List(1,1,3,5)
 val myOtherList = List(6,6,7,8,9)
 //use ::: method for list concatenation
 myList:::myOtherList
+
+val oneTwo = List(1,2,4,5)
+val oneTwoThree = 1 :: oneTwo
+oneTwoThree

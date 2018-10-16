@@ -54,3 +54,15 @@ myArray(2) = "this is liiit"
 for(i <- 0 to 2){
   println(myArray(i))
 }
+
+
+//specify the type of the array explicitly
+val greetingArray: Array[String] = new Array[String](4)
+greetingArray(0) = "I"
+greetingArray(1) = "Just"
+greetingArray(2) = "had"
+greetingArray(3) = "lunch"
+
+for (i <- 0 to 3){
+  println(greetingArray(i))
+}

@@ -44,3 +44,9 @@ def grading(x:String, y:Int) = {
 }
 
 grading("Kimani Mbugua",89)
+//instantiate objects or class instances with new
+
+val myArray = new Array[String](3)
+myArray(0) = "hello"
+myArray(1) = "world"
+myArray(2) = "this is liiit"

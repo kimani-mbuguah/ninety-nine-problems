@@ -50,3 +50,7 @@ val myArray = new Array[String](3)
 myArray(0) = "hello"
 myArray(1) = "world"
 myArray(2) = "this is liiit"
+
+for(i <- 0 to 2){
+  println(myArray(i))
+}

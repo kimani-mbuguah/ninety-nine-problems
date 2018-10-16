@@ -69,4 +69,6 @@ for (i <- 0 to 3){
 //define a list
 //arrays are mutable while list are immutable
 val myList:List[Int] = List(1,1,3,5)
-myList
+val myOtherList = List(6,6,7,8,9)
+//use ::: method for list concatenation
+myList:::myOtherList

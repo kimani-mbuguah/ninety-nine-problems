@@ -71,8 +71,12 @@ for (i <- 0 to 3){
 val myList:List[Int] = List(1,1,3,5)
 val myOtherList = List(6,6,7,8,9)
 //use ::: method for list concatenation
-myList:::myOtherList
+val myDropList = myList:::myOtherList
 
 val oneTwo = List(1,2,4,5)
 val oneTwoThree = 1 :: oneTwo
 oneTwoThree
+//drops the first two elements of the list
+ myDropList.drop(2)
+//drops the last two elements of the list
+myDropList.dropRight(2)

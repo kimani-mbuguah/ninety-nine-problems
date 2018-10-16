@@ -13,3 +13,12 @@ def factorial(x:BigInt):BigInt = {
 }
 
 factorial(30)
+
+//max between two numbers
+def max(x:Int, y: Int) :Int = {
+  if (x>y)x
+  else y
+}
+
+max(22,3)
+max(6,9)
